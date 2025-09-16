@@ -1,4 +1,4 @@
-word_list = [
+word_list = (
     'abruptly',
     'absurd',
     'abyss',
@@ -212,7 +212,7 @@ word_list = [
     'zipper',
     'zodiac',
     'zombie',
-]
+)
 stages = [r'''
   +---+
   |   |

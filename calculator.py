@@ -42,5 +42,9 @@ def mathematics():
             print("This is an unexpected statement. The program will now cease.")
             return
 
-
-mathematics()
+try:
+    mathematics()
+except ValueError as e:
+    print("Please enter a number: ", e)
+except KeyError as e:
+    print (e, " is not a valid operator.")
